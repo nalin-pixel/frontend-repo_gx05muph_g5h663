@@ -6,9 +6,10 @@ const Navbar = () => {
 
   const links = [
     { href: '#home', label: 'Home' },
-    { href: '#projects', label: 'Projects' },
+    { href: '#javaprojects', label: 'Java' },
+    { href: '#apps', label: 'Apps' },
     { href: '#skills', label: 'Skills' },
-    { href: '#experience', label: 'Experience' },
+    { href: '#socials', label: 'Socials' },
   ];
 
   return (

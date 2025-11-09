@@ -1,8 +1,10 @@
 import React from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
-import Projects from './components/Projects';
+import JavaProjects from './components/JavaProjects';
+import AndroidApps from './components/AndroidApps';
 import Skills from './components/Skills';
+import Socials from './components/Socials';
 
 function App() {
   return (
@@ -10,8 +12,10 @@ function App() {
       <Navbar />
       <main className="flex flex-col">
         <Hero />
-        <Projects />
+        <JavaProjects />
+        <AndroidApps />
         <Skills />
+        <Socials />
       </main>
       <footer className="w-full border-t border-white/10 bg-neutral-950 py-6 text-center text-white/60">
         <p className="text-sm">
